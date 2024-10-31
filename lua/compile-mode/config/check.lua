@@ -116,6 +116,7 @@ function check.validate(cfg)
 		buffer_name = { cfg.buffer_name, "string" },
 		time_format = { cfg.time_format, "string" },
 		default_command = { cfg.default_command, "string" },
+		disable_swap = { cfg.disable_swap, "boolean" },
 		ask_about_save = { cfg.ask_about_save, "boolean" },
 		ask_to_interrupt = { cfg.ask_to_interrupt, "boolean" },
 		use_diagnostics = { cfg.use_diagnostics, "boolean" },

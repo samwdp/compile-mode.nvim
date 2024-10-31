@@ -9,6 +9,9 @@
 ---For more info, run `:h compile-mode.buffer_name`
 ---@field buffer_name?              string
 ---
+---For more info, run `:h compile-mode.buffer_name`
+---@field disable_swap?             boolean
+---
 ---For more info, run `:h compile-mode.error_regexp_table`
 ---@field error_regexp_table?       table<string, CompileModeRegexpMatcher>
 ---

@@ -13,6 +13,9 @@ local default_config = {
 	---@type string
 	default_command = "make -k ",
 
+    ---@type boolean
+    disable_swap = false,
+
 	---@type table<string, CompileModeRegexpMatcher>
 	error_regexp_table = {},
 	---@type string[]

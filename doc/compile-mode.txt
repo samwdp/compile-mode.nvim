@@ -26,6 +26,7 @@ Table of Contents                             *compile-mode-table-of-contents*
   - clear_environment                         |compile-mode.clear_environment|
   - debug                                                 |compile-mode.debug|
   - input_word_completion                 |compile-mode.input_word_completion|
+  - disable_swap                                   |compile-mode.disable_swap|
 6. API                                                      |compile-mode-api|
   - compile()                                         |compile-mode.compile()|
   - recompile()                                     |compile-mode.recompile()|
@@ -358,6 +359,10 @@ input_word_completion                     *compile-mode.input_word_completion*
     and if so returns words for completion. If you're using some other
     autocompletion solution and find issues with the completion, you may want
     to try setting this to `true`.
+
+disable_swap                                       *compile-mode.disable_swap*
+    When `true` swap file for the compilation-mode buffer is disabled. 
+    Defaults to `false`.
 
 ==============================================================================
 6. API                                                      *compile-mode-api*
